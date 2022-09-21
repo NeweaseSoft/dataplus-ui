@@ -15,6 +15,8 @@ import TheWelcome from './components/TheWelcome.vue'
   <main>
     <TheWelcome />
   </main>
+
+  <t-button>确定</t-button>
 </template>
 
 <style scoped>
