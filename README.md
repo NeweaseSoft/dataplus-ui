@@ -1,46 +1,59 @@
 # dataplus-ui
 
-This template should help get you started developing with Vue 3 in Vite.
+## Development Environment
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+| Software | Version  |
+|----------|----------|
+| node     | v16.15.1 |
+| npm      | 8.11.0   |
+| vue      | 3.2.39   |
 
 ## Project Setup
 
-```sh
+```
 npm install
 ```
 
 ### Compile and Hot-Reload for Development
 
-```sh
+```
 npm run dev
 ```
 
 ### Type-Check, Compile and Minify for Production
 
-```sh
+```
 npm run build
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
 
-```sh
+```
 npm run lint
 ```
+
+## Project Structure
+
+```
+dataplus-ui                       # 项目名称
+├── public                        # 公共目录
+│   ├── favicon.ico
+│   └── index.html
+├── src                           # 源代码目录
+│   ├── assets                    # 静态资源目录
+│   ├── components                # 公共组件目录
+│   ├── App.vue                   # 基础组件
+│   └── main.js                   # 项目入口文件
+├── .browserslistrc               # 浏览器兼容配置
+├── .eslintrc.js                  # ESlint 规则配置文件
+├── README.md                     # 项目介绍文件
+├── babel.config.js               # Babel 配置文件
+├── jsconfig.json                 # JS 配置文件
+├── package-lock.json             # 锁定安装时的包的版本号，以确保其他人在 npm install 时下载的依赖是一致的
+├── package.json                  # 依赖包管理文件
+└── vue.config.js                 # Vue 配置文件
+```
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
