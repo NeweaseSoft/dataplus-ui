@@ -2,11 +2,16 @@
 
 ## Development Environment
 
-| Software | Version  |
-|----------|----------|
-| node     | v16.15.1 |
-| npm      | 8.11.0   |
-| vue      | 3.2.39   |
+| Software    | Version     |
+|-------------|-------------|
+| node        | v16.15.1    |
+| npm         | 8.11.0      |
+| vue         | 3.2.39      |
+| typescript  | 4.7.4       |
+| pinia       | 2.0.21      |
+| prettier    | 2.7.1       |
+| vite        | 3.0.9       |
+| eslint      | 8.22.0      |
 
 ## Project Setup
 
