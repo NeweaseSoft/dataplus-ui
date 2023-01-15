@@ -1,13 +1,13 @@
-package com.neweasesoft.dataplus.ui;
+package com.neweasesoft.dataplus.ui.frontstage;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DataplusUiApplication {
+public class DataplusUiFrontstageApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DataplusUiApplication.class, args);
+        SpringApplication.run(DataplusUiFrontstageApplication.class, args);
     }
 
 }
