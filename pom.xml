@@ -36,7 +36,7 @@
             <!-- GWT Boot 依赖 -->
             <dependency>
                 <groupId>com.github.gwtboot</groupId>
-                <artifactId>gwt-boot-starter-parent</artifactId>
+                <artifactId>gwt-boot-dependencies</artifactId>
                 <version>${gwt-boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
