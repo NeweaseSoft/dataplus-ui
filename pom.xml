@@ -13,8 +13,8 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
-        <spring-boot.version>2.7.7</spring-boot.version>
         <gwt-boot.version>1.1.0</gwt-boot.version>
+        <domino-ui.version>1.0.0-RC16</domino-ui.version>
     </properties>
 
     <modules>
@@ -24,22 +24,26 @@
 
     <dependencyManagement>
         <dependencies>
-            <!-- Spring Boot 依赖 -->
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-dependencies</artifactId>
-                <version>${spring-boot.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-
-            <!-- GWT Boot 依赖 -->
+            <!-- GWT Boot -->
             <dependency>
                 <groupId>com.github.gwtboot</groupId>
                 <artifactId>gwt-boot-dependencies</artifactId>
                 <version>${gwt-boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+
+            <!-- Domino UI -->
+            <dependency>
+                <groupId>org.dominokit</groupId>
+                <artifactId>domino-ui</artifactId>
+                <version>${domino-ui.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.dominokit</groupId>
+                <artifactId>domino-ui</artifactId>
+                <version>${domino-ui.version}</version>
+                <classifier>sources</classifier>
             </dependency>
         </dependencies>
     </dependencyManagement>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="backstage">
+    <!-- GWT stuffs -->
+    <inherits name="com.github.gwtboot.starter.Starter"/>
+
+    <!-- GWT DominoUI components -->
+    <inherits name="org.dominokit.domino.ui.DominoUI"/>
+
+    <!-- Theme -->
+    <inherits name='com.google.gwt.user.theme.clean.Clean'/>
+
+    <!-- GSS -->
+    <set-configuration-property name="CssResource.enableGss" value="true"/>
+
+    <!-- Entry Point -->
+    <entry-point class='com.neweasesoft.dataplus.ui.backstage.client.ApplicationEntryPoint'/>
+
+    <!-- Directory compiled into javascript -->
+    <source path='client'/>
+    <source path='shared'/>
+</module>
