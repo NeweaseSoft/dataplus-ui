@@ -8,10 +8,10 @@
 | gwt             | 2.10.0     |
 | domino-ui       | 1.0.0-RC16 |
 
-## Project Setup
+## Compile GWT
 
 ```
-mvn gwt:generate-module gwt:devmode
+mvn clean verify gwt:generate-module gwt:devmode
 ```
 
 ### Compile and Hot-Reload for Development
