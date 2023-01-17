@@ -37,7 +37,7 @@
                 <groupId>net.ltgt.gwt.maven</groupId>
                 <artifactId>gwt-maven-plugin</artifactId>
                 <configuration>
-                    <moduleName>com.neweasesoft.dataplus.ui.backstage.client.ApplicationEntryPoint</moduleName>
+                    <moduleName>com.neweasesoft.dataplus.ui.backstage.client.AppEntryPoint</moduleName>
                     <startupUrls>
                         <url>/backstage/</url>
                     </startupUrls>

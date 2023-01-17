@@ -6,16 +6,18 @@
     <!-- GWT DominoUI components -->
     <inherits name="org.dominokit.domino.ui.DominoUI"/>
 
+    <!-- Other module inherits -->
+
     <!-- Theme -->
     <inherits name='com.google.gwt.user.theme.clean.Clean'/>
 
-    <!-- GSS -->
+    <!-- Gss -->
     <set-configuration-property name="CssResource.enableGss" value="true"/>
 
-    <!-- Entry Point -->
-    <entry-point class='com.neweasesoft.dataplus.ui.backstage.client.ApplicationEntryPoint'/>
+    <!-- Specify the app entry point class -->
+    <entry-point class='com.neweasesoft.dataplus.ui.backstage.client.AppEntryPoint'/>
 
-    <!-- Directory compiled into javascript -->
+    <!-- Specify the paths for translatable code -->
     <source path='client'/>
     <source path='shared'/>
 </module>

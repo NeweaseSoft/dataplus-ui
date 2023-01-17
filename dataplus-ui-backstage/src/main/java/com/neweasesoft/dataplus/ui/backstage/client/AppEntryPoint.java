@@ -9,9 +9,9 @@ import java.util.logging.Logger;
  *
  * @author fushuwei
  */
-public class ApplicationEntryPoint implements EntryPoint {
+public class AppEntryPoint implements EntryPoint {
 
-    private static final Logger logger = Logger.getLogger(ApplicationEntryPoint.class.getName());
+    private static final Logger logger = Logger.getLogger(AppEntryPoint.class.getName());
 
     @Override
     public void onModuleLoad() {
