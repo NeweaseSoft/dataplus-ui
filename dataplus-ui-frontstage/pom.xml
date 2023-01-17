@@ -9,7 +9,6 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>dataplus-ui-forestage</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>dataplus-ui-frontstage</artifactId>
 
 </project>

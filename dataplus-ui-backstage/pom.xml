@@ -10,7 +10,6 @@
     </parent>
 
     <artifactId>dataplus-ui-backstage</artifactId>
-    <packaging>pom</packaging>
 
     <dependencies>
         <!-- GWT Boot -->

@@ -20,7 +20,7 @@
 
     <modules>
         <module>dataplus-ui-backstage</module>
-        <module>dataplus-ui-forestage</module>
+        <module>dataplus-ui-frontstage</module>
     </modules>
 
     <dependencyManagement>
