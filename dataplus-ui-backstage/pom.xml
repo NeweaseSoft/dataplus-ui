@@ -32,12 +32,14 @@
 
     <build>
         <plugins>
+            <!-- GWT Maven Plugin -->
             <plugin>
                 <groupId>net.ltgt.gwt.maven</groupId>
                 <artifactId>gwt-maven-plugin</artifactId>
                 <version>${gwt-maven-plugin.version}</version>
                 <configuration>
-                    <moduleName>com.neweasesoft.dataplus.ui.backstage.Backstage</moduleName>
+                    <sourceLevel>${java.version}</sourceLevel>
+                    <moduleName>com.neweasesoft.dataplus.ui.backstage.client.AppEntryPoint</moduleName>
                     <startupUrls>
                         <url>/backstage/</url>
                     </startupUrls>
